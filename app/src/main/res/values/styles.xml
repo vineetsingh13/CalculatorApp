@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="dark">
+        <item name="background">@android:drawable/dialog_holo_dark_frame</item>
+        <item name="android:backgroundTint">@color/orange</item>
+        <item name="android:fontFamily">@font/dm_serif_display</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="layout_constraintDimensionRatio">1:1</item>
+        <item name="android:onClick">operationAction</item>
+    </style>
+
+    <style name="allClear">
+        <item name="background">@android:drawable/dialog_holo_dark_frame</item>
+        <item name="android:backgroundTint">@color/orange</item>
+        <item name="android:fontFamily">@font/dm_serif_display</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="layout_constraintDimensionRatio">1:1</item>
+        <item name="android:onClick">allClearAction</item>
+    </style>
+
+    <style name="backspace">
+        <item name="background">@android:drawable/dialog_holo_dark_frame</item>
+        <item name="android:backgroundTint">@color/orange</item>
+        <item name="android:fontFamily">@font/dm_serif_display</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="layout_constraintDimensionRatio">1:1</item>
+        <item name="android:onClick">backSpaceAction</item>
+    </style>
+
+    <style name="equal">
+        <item name="background">@android:drawable/dialog_holo_dark_frame</item>
+        <item name="android:backgroundTint">@color/orange</item>
+        <item name="android:fontFamily">@font/dm_serif_display</item>
+        <item name="android:textSize">26dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="layout_constraintDimensionRatio">1:1</item>
+        <item name="android:onClick">equalsAction</item>
+    </style>
+
+    <style name="light">
+        <item name="background">@android:drawable/dialog_holo_light_frame</item>
+        <item name="android:backgroundTint">#E1D5F6EF</item>
+        <item name="android:fontFamily">@font/dm_serif_display</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="layout_constraintDimensionRatio">1:1</item>
+        <item name="android:onClick">numberAction</item>
+    </style>
+</resources>
